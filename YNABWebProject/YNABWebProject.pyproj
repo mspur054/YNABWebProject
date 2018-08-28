@@ -27,13 +27,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="passwords.py">
-      <SubType>Code</SubType>
-      <Publish>False</Publish>
-    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="YNABWebProject\my_script.py">
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="passwords.py">
+      <SubType>Code</SubType>
+      <Publish>False</Publish>
     </Compile>
     <Compile Include="YNABWebProject\__init__.py" />
     <Compile Include="YNABWebProject\views.py" />
